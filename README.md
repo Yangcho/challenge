@@ -1,7 +1,7 @@
    <!DOCTYPE html>
    <html>
    <head>
-      <title></title>
+   <title></title>
      /**
     * 10.4절 웹페이지 자동 스크롤 적용
     */
