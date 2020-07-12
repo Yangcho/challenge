@@ -1,14 +1,14 @@
 <html lang="en" dir="ltr">
 
 <head>
-<script>
-                function startScroll(interval) {
-                setInterval("autoscroll()", interval);
-                }
-                function autoScroll() {
-                window.scrollBy(0, 10);
-                }
-</script>
+  <script>
+    function startScroll(interval) {
+      setInterval("autoscroll()", interval);
+    }
+    function autoScroll() {
+      window.scrollBy(0, 10);
+    }
+  </script>
 </head>
      // 10.4절 웹페이지 자동 스크롤 적용
       
