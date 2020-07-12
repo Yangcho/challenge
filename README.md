@@ -25,6 +25,7 @@
                 <ul>
                   <li> <a href="html_001.html"> 페이지 001 </a></li>
                   <li> <a href="html_002.html"> 페이지 002 </a></li>
+                  <li> <a href="html_003.html"> 페이지 003 </a></li>
                   <li> <a href="https://www.netflix.com/kr/"> 넷플릭스 사이트 </a> </li>
                 </ul>
                 <script>
