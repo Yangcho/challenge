@@ -18,24 +18,23 @@
       <li> <a href="html_002.html"> 페이지 002 </a></li>
       <li> <a href="https://www.netflix.com/kr/"> 넷플릭스 사이트 </a> </li>
     </ul>
-    
-    //9.5절 new Image()로 이미지 로딩과 출력 실행함. 7.3절 배열도 적용됨.[^8]
-   <script>
-  var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
-  var imgs=new Array();
-   for(var i=0;i<files.length;i++){
-    imgs[i]=new Image();
-    imgs[i].src=files[i];
-    }
-   var next=1;
-   function change(img){
-    img.src=imgs[next].src;
-    next++;
-    next %=imgs.length;
+    <script>
+    var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
+    var imgs=new Array();
+    for(var i=0;i<files.length;i++){
+      imgs[i]=new Image();
+     imgs[i].src=files[i];
+     }
+    var next=1;
+    function change(img){
+      img.src=imgs[next].src;
+      next++;
+     next %=imgs.length;
     }
     <img style="border:20px ridge wheat" src="하늘.jpg" alt="." width="200" height="200" onclick="change(this)">
     //9.5절 new Image()로 이미지 로딩과 출력 실행함[^1]
    </script>
+    //9.5절 new Image()로 이미지 로딩과 출력 실행함. 7.3절 배열도 적용됨.[^8]
    <br>
    
     <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>
