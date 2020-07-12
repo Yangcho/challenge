@@ -1,15 +1,15 @@
 <html lang="en" dir="ltr">
-  //10.4절 웹페이지 자동 스크롤 적용
-  <script>
-  function startScroll(interval) {
-      setInterval("autoscroll()", interval);
-    }
-    function autoScroll() {
-      window.scrollBy(0, 10);
-    }
-  </script>
+   //10.4절 웹페이지 자동 스크롤 적용
+        <script>
+        function startScroll(interval) {
+            setInterval("autoscroll()", interval);
+        }
+        function autoScroll() {
+           window.scrollBy(0, 10);
+         }
+      </script>
     
-<body onload="startScroll(1000)">
+        <body onload="startScroll(1000)">
   <h1>#StayHome</h1>
   <p><strong>Page 02</strong></p>
   
