@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="utf-8">
-   <script>
+  <script>
                 function startScroll(interval) {
                 setInterval("autoscroll()", interval);
                 }
