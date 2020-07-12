@@ -11,6 +11,7 @@
                 window.scrollBy(0, 10);
                 }
                 </script>
+      
                 <body onload="startScroll(1000)">
                 <h1>#StayHome</h1>
                 <p><strong>Page 02</strong></p>
