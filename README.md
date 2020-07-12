@@ -19,7 +19,7 @@
       <li> <a href="https://www.netflix.com/kr/"> 넷플릭스 사이트 </a> </li>
     </ul>
     
-    //9.5절 new Image()로 이미지 로딩과 출력 실행함
+    //9.5절 new Image()로 이미지 로딩과 출력 실행함. 7.3절 배열도 적용됨.[^8]
    <script>
   var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
   var imgs=new Array();
