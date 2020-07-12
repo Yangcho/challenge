@@ -68,18 +68,42 @@
     var a=new String("오늘 여수로 놀러갈래?");
     var b=new String("난 집에 있는 게 더 좋아~ 놀러가면 부모님께서 걱정하셔.");
     var c=new String("그러니? 난 부산으로 놀러가고 싶다~");
-    
     document.write("예빈 : " +a+ "<br>");
     document.write("가연 : " +b+ "<br>");
     document.write("재혁 : " +c+ "<br>");
     
     var sub=a.split(" ");
-    document.write("예빈이의 말을 단어별로 나누면 : ");
+    document.write("예빈이의 말을 단어별로 나누면 : <br>");
     for(var i=0;i<sub.length; i++)
       document.write(sub[i] + "<br>");
     </script>
     <br />
     //7.5절 String 객체 메소드 활용[^7]
+    
+    //9.6절 선택된 라이도버튼 찾아 경고창에 출력하기[^9]
+    <h1>당신은 어디로 놀러가고 싶으신가요?</h1>
+    <script>
+    function findChecked(){
+      var found=null;
+      var region=document.getElementsByName("kregion");
+      for(var i=0;i<region.length;i++){
+        if(region[i].checked==true)
+          found=region[i];
+       }
+       if(found!=null)
+        alert(found.value + "이 선택되었음");
+       else
+        alert("선택된 것이 없음");
+     }
+    </script>
+    <form>
+      <input type="radio" name="region" value="yeosoo" checked>여수
+      <input type="radio" name="region" value="home" checked>집
+      <input type="radio" name="region" value="busan" checked>부산 
+      <input type="button" value="find checked" onclick="findChecked()">
+    </form>
+    <br>
+    //9.6절 선택된 라이도버튼 찾아 경고창에 출력하기[^10]
     
     <hr /> <p>
       something important thing is missing in your life
