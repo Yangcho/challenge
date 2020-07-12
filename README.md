@@ -20,7 +20,8 @@
     </ul>
     <img src="https://i1378.photobucket.com/albums/ah105/replus/005__zpst9toadxc.png" width="300"  border="0" />
    
-    <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>  /* 7.3절, 7.6절 */
+    <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>
+    /* 7.3절, 7.6절 */
     <hr>
     <script>
     var degrees=new Array();
@@ -32,7 +33,8 @@
       sum+=degrees[i];
     document.write("A=" + degrees[0] + "<br> B=" + degrees[1] + "<br> C=" +degrees[2] + "<br> A, B, C의 평균 값은" +sum/degrees.length + "<br>"); 
     </script>
-    <br/>/* 7.3절, 7.6절 */
+    <br/>
+    /* 7.3절, 7.6절 */
     
     <h1>7.4절 Date 객체 활용</h1> /*7.4절 "Date" 추가 */
     <script>
@@ -41,7 +43,8 @@
     </script>
     <br/>
 
-    <h1>예빈이와 가연이의 대화</h1> /*7.5절 String 객체 메소드 활용*/
+    <h1>예빈이와 가연이의 대화</h1>
+    /*7.5절 String 객체 메소드 활용*/
     <script>
     var a=new String("오늘 여수로 놀러갈래?");
     var b=new String("난 집에 있는 게 더 좋아~ 놀러가면 부모님께서 걱정하셔.");
@@ -55,6 +58,7 @@
       document.write(sub[i] + "<br>");
     </script>
     <br />
+    /*7.5절 String 객체 메소드 활용*/
     
     <hr /> <p>
       something important thing is missing in your life
