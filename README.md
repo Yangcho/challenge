@@ -9,7 +9,7 @@
                 function autoScroll() {
                 window.scrollBy(0, 10);
                 }
-                </script>
+  </script>
 </head>
      // 10.4절 웹페이지 자동 스크롤 적용
       
