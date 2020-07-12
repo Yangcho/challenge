@@ -58,8 +58,8 @@
     //7.4절 "Date" 추가[^4]
     <script>
     var now=new Date();
-    document.write("현재 시간 : " +now.toUTCString() + "<br><hr>");
     </script>
+    document.write("현재 시간 : " +now.toUTCString() + "<br><hr>");
     <br/>
     //7.4절 "Date" 추가[^5]
 
