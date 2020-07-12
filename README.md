@@ -2,7 +2,7 @@
    <head>
    </head>
    
-   /**10.4절 웹페이지 자동 스크롤 적용*/
+   /**10.4절 웹페이지 자동 스크롤 적용 */
                        <script>
                       function startScroll(interval) {
                          setInterval("autoscroll()", interval);
