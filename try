@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Untitled | rmdhosting</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Untitled" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://mrchypark.github.io/rmdhosting/try.html" />
+<meta property="og:url" content="https://mrchypark.github.io/rmdhosting/try.html" />
+<meta property="og:site_name" content="rmdhosting" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"https://mrchypark.github.io/rmdhosting/try.html","headline":"Untitled","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/rmdhosting/assets/css/style.css?v=d774fc51a9f40d476a268336171e4d65a5b5b8fc" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+        <h1><a href="https://mrchypark.github.io/rmdhosting/">rmdhosting</a></h1>
+      
+
+      <h1 id="untitled">Untitled</h1>
+
+<h2 id="trymd-이름으로-만든-파일입니다">try.md 이름으로 만든 파일입니다.</h2>
+
+<p>Rmd 문서를 호스팅하는 것에 대해 설명하기 위한 예시 파일입니다. <a href="https://mrchypark.github.io/post/r%EB%A1%9C%EB%82%98%EB%A7%8C%EC%9D%98-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-2%ED%83%84-github-pages/">링크</a>를 클릭해서 내용을 확인해보세요.</p>
+
+<p>This is an R Markdown format used for publishing markdown documents to GitHub. When you click the <strong>Knit</strong> button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.</p>
+
+<h2 id="including-code">Including Code</h2>
+
+<p>You can include R code in the document as follows:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">summary</span><span class="p">(</span><span class="n">cars</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+</code></pre></div></div>
+
+<h2 id="including-plots">Including Plots</h2>
+
+<p>You can also embed plots, for example:</p>
+
+<p><img src="try_files/figure-markdown_github/pressure-1.png" alt="" /></p>
+
+<p>Note that the <code class="highlighter-rouge">echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+
+
+      
+    </div>
+    <script src="/rmdhosting/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
