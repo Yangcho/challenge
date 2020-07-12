@@ -11,9 +11,7 @@
                 }
                 </script>
 </head>
-     /**
-    * 10.4절 웹페이지 자동 스크롤 적용
-    */
+     // 10.4절 웹페이지 자동 스크롤 적용
       
                 <body onload="startScroll(1000)">
                 <h1>#StayHome</h1>
@@ -43,15 +41,11 @@
                                      }
                                      <img style="border:20px ridge wheat" src="하늘.jpg" alt="." width="200" height="200" onclick="change(this)">
                    </script>
-                   /**
-                   * 9.5절 new Image()로 이미지 로딩과 출력 실행함. 7.3절 배열도 적용됨.
-                   */
+                   // 9.5절 new Image()로 이미지 로딩과 출력 실행함. 7.3절 배열도 적용됨.
                    <br>
     
     <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>
-    /**
-    * 7.3절, 7.6절[^2]
-    */
+    // 7.3절, 7.6절[^2]
     <script>
     var degrees=new Array();
     degrees[0]=Math.random()*100;
@@ -63,15 +57,11 @@
     </script>
     document.write("A=" + degrees[0] + "<br> B=" + degrees[1] + "<br> C=" +degrees[2] + "<br> A, B, C의 평균 값은" +sum/degrees.length + "<br>");
     <br/>
-    /**
-    * 7.3절, 7.6절
-    */
+    // 
     
     <h1>7.4절 Date 객체 활용</h1>
     
-    /**
-    * 7.4절 "Date" 추가[^4]
-    */
+    // 7.4절 "Date" 추가[^4]
     <script>
     var now=new Date();
     function init(){
@@ -176,12 +166,9 @@
     document.write("현재 시간 : " +now.toUTCString() + "<br><hr>");
     <br/>
     
-    /**
-    * 7.4절 "Date" 추가[^5]
-    */
-    /**
-    * 10.3절 setInterval() 이용하여 텍스트를 반복 회전시키는 코드
-    */
+    // 7.4절 "Date" 추가[^5]
+    
+    //10.3절 setInterval() 이용하여 텍스트를 반복 회전시키는 코드
     
     <div><span id="span" style="background-color:aliceblue:>
     자동 회전하는 텍스트입니다.</span>
@@ -204,9 +191,7 @@
       </script>
       
       <h1>예빈이와 재혁이와 가연이의 대화</h1>
-      /**
-      * 7.5절 String 객체 메소드 활용[^6]
-      */
+      // 7.5절 String 객체 메소드 활용[^6]
       
       <script>
       var a=new String("오늘 여수로 놀러갈래?");
@@ -224,12 +209,8 @@
          </script>
          <br/>
          
-         /**
-         *7.5절 String 객체 메소드 활용[^7]
-         */
-         /**
-         * 9.6절 선택된 라디오버튼 찾아 경고창에 출력하기[^9]
-         */
+         // 7.5절 String 객체 메소드 활용[^7]
+         // 9.6절 선택된 라디오버튼 찾아 경고창에 출력하기[^9]
          
          <h1>당신은 어디로 놀러가고 싶으신가요?</h1>
          <script>
@@ -253,9 +234,7 @@
                      <input type="button" value="find checked" onclick="findChecked()">
                   </form>
                   <br>
-                  /**
-                  * 9.6절 선택된 라디오버튼 찾아 경고창에 출력하기[^10]
-                  */
+                  // 9.6절 선택된 라디오버튼 찾아 경고창에 출력하기[^10]
                   
                   
                   <hr/> <p>
