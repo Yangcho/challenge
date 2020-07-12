@@ -62,14 +62,16 @@
     <br/>
     //7.4절 "Date" 추가[^5]
 
-    <h1>예빈이와 가연이의 대화</h1>
+    <h1>예빈이와 재혁이와 가연이의 대화</h1>
     //7.5절 String 객체 메소드 활용[^6]
     <script>
     var a=new String("오늘 여수로 놀러갈래?");
     var b=new String("난 집에 있는 게 더 좋아~ 놀러가면 부모님께서 걱정하셔.");
+    var c=new String("그러니? 난 부산으로 놀러가고 싶다~");
     
     document.write("예빈 : " +a+ "<br>");
     document.write("가연 : " +b+ "<br>");
+    document.write("재혁 : " +c+ "<br>");
     
     var sub=a.split(" ");
     document.write("예빈이의 말을 단어별로 나누면 : ");
