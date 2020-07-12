@@ -1,6 +1,8 @@
 <html>
 <head>
-
+/**
+* 11장 애니메이션
+*/
 <body>
 <div class="clock">0</div>
 <button class="play">시작</button>
@@ -27,7 +29,7 @@ setInterval(function()  {
     setInterval(function()  {
       clock.innerHTML=num;
       num++;
-  }, 1000);
+    }, 1000);
   })
   
   right.addEventListener('click', function()  {
@@ -35,10 +37,9 @@ setInterval(function()  {
       ani+=1;
       if(ani>=200)  {
         clearInterval(tt)
-  }
-  clock.style.transform="translateX(" +ani+ "px)";
-  }, 5)
-  
+      }
+      clock.style.transform="translateX(" +ani+ "px)";
+    }, 5)
   })
   </body>
   </html>
