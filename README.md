@@ -2,11 +2,7 @@
 
 <head>
   <meta charset="utf-8">
-</head>
-     /**
-    * 10.4절 웹페이지 자동 스크롤 적용
-    */
-                <script>
+   <script>
                 function startScroll(interval) {
                 setInterval("autoscroll()", interval);
                 }
@@ -14,6 +10,10 @@
                 window.scrollBy(0, 10);
                 }
                 </script>
+</head>
+     /**
+    * 10.4절 웹페이지 자동 스크롤 적용
+    */
       
                 <body onload="startScroll(1000)">
                 <h1>#StayHome</h1>
