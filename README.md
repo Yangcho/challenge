@@ -1,8 +1,8 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <script>
+ <meta charset="utf-8">
+ <script>
                 function startScroll(interval) {
                 setInterval("autoscroll()", interval);
                 }
