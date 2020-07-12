@@ -1,8 +1,6 @@
    <!DOCTYPE html>
-   <html lang="en" dir="ltr">
+   <html>
     <head>
-    </head>
-   
      /**
     * 10.4절 웹페이지 자동 스크롤 적용
     */
