@@ -11,13 +11,14 @@
   <p><strong>Page 02</strong></p>
 
     <script>
-    document.write("집에만 있는 당신에게 필요한 것들을 제공하는 홈페이지입니다. <br>");
+    document.write("집에만 있는 당신에게 필요한 것들을 제공하는 홈페이지입니다. <br> 하단 이미지 클릭 시 다양한 풍경을 보여줍니다.");
     </script>
     <ul>
       <li> <a href="html_001.html"> 페이지 001 </a></li>
       <li> <a href="html_002.html"> 페이지 002 </a></li>
       <li> <a href="https://www.netflix.com/kr/"> 넷플릭스 사이트 </a> </li>
     </ul>
+   var files=["media/하늘.jpg", "media/ocean.jpg", 
     <img src="하늘.jpg" width="300"  border="0" />
     
    
