@@ -1,9 +1,20 @@
 <html lang="en" dir="ltr">
-<body>
+  //10.4절 웹페이지 자동 스크롤 적용
+  <script>
+  function startScroll(interval) {
+      setInterval("autoscroll()", interval);
+    }
+    function autoScroll() {
+      window.scrollBy(0, 10);
+    }
+  </script>
+    
+<body onload="startScroll(1000)">
   <h1>#StayHome</h1>
   <p><strong>Page 02</strong></p>
+  
   <script>
-    document.write("집에만 있는 당신에게 필요한 것들을 제공하는 홈페이지입니다. <br> 하단 이미지 클릭 시 다양한 풍경을 보여줍니다.");
+    document.write("집에만 있는 당신에게 필요한 것들을 제공하는 홈페이지입니다. <br> 하단 이미지 클릭 시 다양한 풍경을 보여줍니다. <br> 이 페이지에는 자동으로 스크롤되는 기능이 있습니다.");
   </script>
   <ul>
     <li> <a href="html_001.html"> 페이지 001 </a></li>
@@ -53,6 +64,7 @@ document.write("현재 시간 : " +now.toUTCString() + "<br><hr>");
 <br/>
 //7.4절 "Date" 추가[^5]
 
+//10.3절 setInterval() 이용하여 텍스트를 반복 회전시키는 코드
 <div><span id="span" style="background-color:aliceblue:>
   자동 회전하는 텍스트입니다.</span>
   </div>
