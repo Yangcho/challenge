@@ -34,12 +34,12 @@
     next %=imgs.length;
     }
     <img style="border:20px ridge wheat" src="하늘.jpg" alt="." width="200" height="200" onclick="change(this)">
-    //9.5절 new Image()로 이미지 로딩과 출력 실행함
+    //9.5절 new Image()로 이미지 로딩과 출력 실행함[^1]
    </script>
    <br>
    
     <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>
-    //7.3절, 7.6절
+    //7.3절, 7.6절[^2]
     <hr>
     <script>
     var degrees=new Array();
@@ -52,19 +52,19 @@
     </script>
     document.write("A=" + degrees[0] + "<br> B=" + degrees[1] + "<br> C=" +degrees[2] + "<br> A, B, C의 평균 값은" +sum/degrees.length + "<br>"); 
     <br/>
-    //7.3절, 7.6절
+    //7.3절, 7.6절[^3]
     
     <h1>7.4절 Date 객체 활용</h1>
-    //7.4절 "Date" 추가
+    //7.4절 "Date" 추가[^4]
     <script>
     var now=new Date();
     document.write("현재 시간 : " +now.toUTCString() + "<br><hr>");
     </script>
     <br/>
-    //7.4절 "Date" 추가
+    //7.4절 "Date" 추가[^5]
 
     <h1>예빈이와 가연이의 대화</h1>
-    //7.5절 String 객체 메소드 활용
+    //7.5절 String 객체 메소드 활용[^6]
     <script>
     var a=new String("오늘 여수로 놀러갈래?");
     var b=new String("난 집에 있는 게 더 좋아~ 놀러가면 부모님께서 걱정하셔.");
@@ -78,7 +78,7 @@
       document.write(sub[i] + "<br>");
     </script>
     <br />
-    //7.5절 String 객체 메소드 활용
+    //7.5절 String 객체 메소드 활용[^7]
     
     <hr /> <p>
       something important thing is missing in your life
