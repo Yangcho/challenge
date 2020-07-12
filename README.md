@@ -53,6 +53,25 @@ document.write("현재 시간 : " +now.toUTCString() + "<br><hr>");
 <br/>
 //7.4절 "Date" 추가[^5]
 
+<div><span id="span" style="background-color:aliceblue:>
+  자동 회전하는 텍스트입니다.</span>
+  </div>
+  <script>
+  var span=document.getElementById("span");
+  var timerID=setInterval("doRotate()", 200);
+  
+  span.onclick=function(e) {
+    clearInterval(timerID);
+    }
+  function doRotate() {
+    var strr=span.innerHTML;
+    var firstChar=strr.substr(0,1);
+    var remaions=strr.substr(1, strr.length-1);
+    strr=remains + firstChar;
+    span.innerHTML = strr;
+    }
+    </script>
+
 <h1>예빈이와 재혁이와 가연이의 대화</h1>
 //7.5절 String 객체 메소드 활용[^6]
 <script>
