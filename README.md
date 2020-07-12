@@ -4,7 +4,7 @@
     </head>
    
      /**
-    * 10.4절 웹페이지 자동 스크롤 적용, 10.5절 location 객체로 웹사이트 접속
+    * 10.4절 웹페이지 자동 스크롤 적용
     */
                 <script>
                 function startScroll(interval) {
