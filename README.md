@@ -10,7 +10,7 @@
     }
   </script>
 </head>
-     // 10.4절 웹페이지 자동 스크롤 적용
+// 10.4절 웹페이지 자동 스크롤 적용
       
                 <body onload="startScroll(1000)">
                 <h1>#StayHome</h1>
