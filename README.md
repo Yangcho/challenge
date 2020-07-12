@@ -24,13 +24,13 @@
                   <li> <a href="html_002.html"> 페이지 002 </a></li>
                   <li> <a href="https://www.netflix.com/kr/"> 넷플릭스 사이트 </a> </li>
                 </ul>
-  <script>
-    var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
-    var imgs=new Array();
-    for(var i=0;i<files.length;i++){
-                                   imgs[i]=new Image();
-                                   imgs[i].src=files[i];
-                                   }
+                <script>
+                var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
+                var imgs=new Array();
+                for(var i=0;i<files.length;i++){
+                  imgs[i]=new Image();
+                  imgs[i].src=files[i];
+                  }
                                      var next=1;
                                      function change(img){
                                      img.src=imgs[next].src;
