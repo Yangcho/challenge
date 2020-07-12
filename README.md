@@ -14,6 +14,7 @@
                 <body onload="startScroll(1000)">
                 <h1>#StayHome</h1>
                 <p><strong>Page 02</strong></p>
+                
                 <script>
                 document.write("집에만 있는 당신에게 필요한 것들을 제공하는 홈페이지입니다. <br> 하단 이미지 클릭 시 다양한 풍경을 보여줍니다. <br> 이 페이지에는 자동으로 스크롤되는 기능이 있습니다.");
                 </script>
