@@ -1,15 +1,15 @@
 <html lang="en" dir="ltr">
 
 <head>
- <meta charset="utf-8">
- <script>
+<meta charset="utf-8">
+<script>
                 function startScroll(interval) {
                 setInterval("autoscroll()", interval);
                 }
                 function autoScroll() {
                 window.scrollBy(0, 10);
                 }
-  </script>
+</script>
 </head>
      // 10.4절 웹페이지 자동 스크롤 적용
       
