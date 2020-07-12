@@ -19,6 +19,7 @@
       <li> <a href="https://www.netflix.com/kr/"> 넷플릭스 사이트 </a> </li>
     </ul>
     <img src="https://i1378.photobucket.com/albums/ah105/replus/005__zpst9toadxc.png" width="300"  border="0" />
+    
    
     <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>
     /* 7.3절, 7.6절 */
