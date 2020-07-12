@@ -49,8 +49,8 @@
     var sum=0;
     for(i=0;I<degrees.length;i++)
       sum+=degrees[i];
-    document.write("A=" + degrees[0] + "<br> B=" + degrees[1] + "<br> C=" +degrees[2] + "<br> A, B, C의 평균 값은" +sum/degrees.length + "<br>"); 
     </script>
+    document.write("A=" + degrees[0] + "<br> B=" + degrees[1] + "<br> C=" +degrees[2] + "<br> A, B, C의 평균 값은" +sum/degrees.length + "<br>"); 
     <br/>
     //7.3절, 7.6절
     
