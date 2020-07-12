@@ -1,9 +1,4 @@
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>REPLUS TEST SITE</title>
-</head>
 <body>
   <h1>#StayHome</h1>
   <p><strong>Page 02</strong></p>
