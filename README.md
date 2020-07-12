@@ -75,7 +75,7 @@
     <script>
     var now=new Date();
     function init(){
-  clock();
+    clock();
   setInterval(clock,1000);
 }
 
