@@ -20,8 +20,9 @@
     </ul>
     
     //9.5절 new Image()로 이미지 로딩과 출력 실행함
-   var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
-   var imgs=new Array();
+   <script>
+  var files=["하늘.jpg", "ocean.jpg", "desert.jpg", "forest.jpg"];
+  var imgs=new Array();
    for(var i=0;i<files.length;i++){
     imgs[i]=new Image();
     imgs[i].src=files[i];
@@ -34,7 +35,7 @@
     }
     <img style="border:20px ridge wheat" src="하늘.jpg" alt="." width="200" height="200" onclick="change(this)">
     //9.5절 new Image()로 이미지 로딩과 출력 실행함
-   
+   </script>
    <br>
    
     <h1>새로고침할 때마다 숫자가 바뀝니다!</h1>
